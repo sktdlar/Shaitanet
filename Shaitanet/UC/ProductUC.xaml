@@ -6,7 +6,7 @@
              xmlns:local="clr-namespace:Shaitanet.UC"
              mc:Ignorable="d" 
              d:DesignHeight="200" MinWidth="300" Background="White">
-    <Border Margin="10" BorderBrush="Black" BorderThickness="1">
+    <Border Cursor="Hand" Margin="10" BorderBrush="Black" BorderThickness="1">
         <Grid MouseLeftButtonDown="Grid_MouseLeftButtonDown">
             <Image Source="{Binding Icon}" Name="IconImg" Width="130" Height="130" HorizontalAlignment="Left" Margin="10"/>
 

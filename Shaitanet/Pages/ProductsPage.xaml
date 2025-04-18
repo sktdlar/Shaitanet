@@ -21,6 +21,7 @@
 
         <StackPanel HorizontalAlignment="Right" Margin="10">
             <Button Name="New" Click="New_Click">Новый товар</Button>
+            <Button Name="Sort" Click="Sort_Click">Сортировка по алфавиту</Button>
             <TextBlock>Поиск</TextBlock>
             <TextBox TextChanged="SearchTB_TextChanged" Name="SearchTB" Width="150"></TextBox>
             <Grid>

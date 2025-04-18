@@ -32,7 +32,10 @@ namespace Shaitanet.UC
 
         private void Grid_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
         {
-            NavigationService.GetNavigationService(this).Navigate(new AddEditProductPage(product));
+            if (App.currentUser.Role.id == 1)
+            {
+                NavigationService.GetNavigationService(this).Navigate(new AddEditProductPage(product));
+            }
         }
     }
 }
