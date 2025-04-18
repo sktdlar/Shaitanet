@@ -34,7 +34,7 @@ namespace Shaitanet.Pages
             }
             else
             {
-                MessageBox.Show("Вход не успешный");
+                MessageBox.Show("Вход не успешный!");
             }
         }
     }
