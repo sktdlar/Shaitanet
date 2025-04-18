@@ -11,7 +11,7 @@
             <Image Source="{Binding Icon}" Name="IconImg" Width="130" Height="130" HorizontalAlignment="Left" Margin="10"/>
 
             <TextBlock VerticalAlignment="Top" HorizontalAlignment="Right" Margin="10" Text="{Binding Name}"></TextBlock>
-            <TextBlock VerticalAlignment="Bottom" HorizontalAlignment="Right" Margin="11" Text="{Binding Cost}"></TextBlock>
+            <TextBlock VerticalAlignment="Bottom" HorizontalAlignment="Right" Margin="10" Text="{Binding Cost}"></TextBlock>
 
 
         </Grid>
