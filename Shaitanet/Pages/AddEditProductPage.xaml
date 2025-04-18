@@ -10,6 +10,7 @@
 
     <Grid>
         <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+            <TextBlock HorizontalAlignment="Center">Товар</TextBlock>
             <StackPanel HorizontalAlignment="Right" Orientation="Horizontal">
                 <TextBlock VerticalAlignment="Center">Название</TextBlock>
                 <TextBox Text="{Binding Name}" Name="NameTb" Width="200" Margin="10"></TextBox>
