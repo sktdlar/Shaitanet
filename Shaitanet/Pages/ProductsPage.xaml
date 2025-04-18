@@ -1,0 +1,33 @@
+﻿<Page x:Class="Shaitanet.Pages.ProductsPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Shaitanet.Pages"
+      mc:Ignorable="d" Loaded="Page_Loaded"
+      d:DesignHeight="450" d:DesignWidth="1000"
+      Title="ProductsPage">
+
+    <Grid>
+        <StackPanel Orientation="Horizontal">
+            <StackPanel VerticalAlignment="Center">
+                <Button Margin="10" Padding="10 0 10 0">Корма</Button>
+                <Button Margin="10" Padding="10 0 10 0">Выход</Button>
+            </StackPanel>
+            <StackPanel VerticalAlignment="Top" HorizontalAlignment="Left" Margin="10">
+                <WrapPanel MaxWidth="1400" Name="ProductsWP"/>
+            </StackPanel>
+        </StackPanel>
+
+        <StackPanel HorizontalAlignment="Right" Margin="10">
+            <Button Name="New" Click="New_Click">Новый товар</Button>
+            <TextBlock>Поиск</TextBlock>
+            <TextBox TextChanged="SearchTB_TextChanged" Name="SearchTB" Width="150"></TextBox>
+            <Grid>
+                <Button HorizontalAlignment="Left" Name="BackBtn">Назад</Button>
+                <TextBlock HorizontalAlignment="Center" Name="CountOnPageTb"></TextBlock>
+                <Button HorizontalAlignment="Right" Name="ForwardBtn">Вперед</Button>
+            </Grid>
+        </StackPanel>
+    </Grid>
+</Page>
